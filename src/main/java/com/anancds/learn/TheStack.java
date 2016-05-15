@@ -66,7 +66,8 @@ public class TheStack<E> {
         for (int i = 0; i < 11; ++i) {
             strings.push("a");
         }
-        System.out.println(strings);
-
+        strings.push("b");
+        System.out.println(strings.search("a"));
+        //缺查询接口
     }
 }
