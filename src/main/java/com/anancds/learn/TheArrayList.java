@@ -30,12 +30,12 @@ public class TheArrayList<T> implements Iterable<T>{
     public Iterator<T> iterator() {
         return null;
     }
-
-    public void forEach(Consumer<? super T> action) {
-
-    }
-
-    public Spliterator<T> spliterator() {
-        return null;
-    }
+//
+//    public void forEach(Consumer<? super T> action) {
+//
+//    }
+//
+//    public Spliterator<T> spliterator() {
+//        return null;
+//    }
 }

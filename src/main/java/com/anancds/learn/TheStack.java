@@ -1,5 +1,6 @@
 package com.anancds.learn;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -54,11 +55,18 @@ public class TheStack<E> {
     }
 
     public synchronized boolean isEmpty() {
-        return topOfStack >= 0;
+        return topOfStack < 0;
     }
 
 
-
+    @Override
+    public String toString() {
+        return "TheStack{" +
+                "objects=" + Arrays.toString(objects) +
+                ", statkSize=" + statkSize +
+                ", topOfStack=" + topOfStack +
+                '}';
+    }
 
     public static void main(String[] args) {
 
