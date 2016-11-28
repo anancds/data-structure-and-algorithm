@@ -1,6 +1,8 @@
 # data-structure-and-algorithm
 
 
+* 本代码是学习型代码，参考的是官方的algorithm 4th
+
 - 数据结构与算法分析 java语言描述第三版
 
 - 算法 第四版 
