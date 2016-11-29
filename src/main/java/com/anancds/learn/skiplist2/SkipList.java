@@ -1,4 +1,4 @@
-package com.anancds.learn.SkipList2;
+package com.anancds.learn.skiplist2;
 
 public class SkipList {
 
